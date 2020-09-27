@@ -1,0 +1,19 @@
+.img-box {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	padding-left: 0px;
+}
+.img-box li {
+	display: block;
+}
+.img-blok {
+	position: relative;
+	display: block;
+}
+.img-blok:not(:last-child) {
+	margin-right: 30px;
+}
+.img-blok img {
+	display: block;
+}

@@ -1,0 +1,11 @@
+.header {
+	background: $background;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border: 1px solid #ececec;
+	min-width: 1600px;
+}
+.header .flexbox {
+	justify-content: flex-end;
+	align-items: center;
+}

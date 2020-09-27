@@ -1,0 +1,17 @@
+.footer {
+	min-width: 1600px;
+	background: #2f303a;
+	margin: 0px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	&-blok div {
+		margin-right: 70px;
+	}
+	&-blok {
+		display: inline-flex;
+	}
+	&-box {
+		display: flex;
+	}
+}

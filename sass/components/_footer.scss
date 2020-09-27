@@ -1,0 +1,77 @@
+.join {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $background;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.social-link-join {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.1);
+	color: #afb1b8;
+}
+.social-link-join:hover {
+	color: $background;
+	background-color: #2196f3;
+}
+
+.form-mail-block {
+	display: block;
+}
+.form-mail-block h2 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.form-mail-block input {
+	width: 358px;
+	height: 50px;
+
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+
+	background-color: rgba(0, 0, 0, 0);
+}
+.form-mail-block input::placeholder {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+
+	color: rgba(255, 255, 255, 0.6);
+
+	padding-left: 16px;
+}
+.form-send {
+	display: flex;
+}
+.form-send form {
+	margin-right: 12px;
+}
+
+.icon-send {
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
+}

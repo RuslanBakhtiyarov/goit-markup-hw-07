@@ -1,0 +1,27 @@
+.bissnes {
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-width: 1600px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.services {
+	font-family: "Roboto";
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 30px;
+	margin: 0px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.services p {
+	margin: 0px;
+	line-height: 60px;
+	text-align: center;
+}
